@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_ecommerce_product_variants",
+  "info": {
+    "displayName": "ProductVariant"
+  },
+  "options": {},
+  "attributes": {
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "Color": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Blue"
+      ]
+    },
+    "PriceAdjustment": {
+      "type": "decimal"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

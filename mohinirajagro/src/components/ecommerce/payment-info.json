@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ecommerce_payment_infos",
+  "info": {
+    "displayName": "PaymentInfo"
+  },
+  "options": {},
+  "attributes": {
+    "method": {
+      "type": "enumeration",
+      "enum": [
+        "cod",
+        "upi",
+        "card",
+        "wallet"
+      ]
+    },
+    "transactionId": {
+      "type": "string"
+    },
+    "paymentstatus": {
+      "type": "enumeration",
+      "enum": [
+        "success",
+        "pending",
+        "failed"
+      ]
+    }
+  },
+  "config": {}
+}

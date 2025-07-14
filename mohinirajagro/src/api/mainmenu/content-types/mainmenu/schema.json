@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mainmenus",
+  "info": {
+    "singularName": "mainmenu",
+    "pluralName": "mainmenus",
+    "displayName": "mainmenu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mainmenu.mainmenu"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
